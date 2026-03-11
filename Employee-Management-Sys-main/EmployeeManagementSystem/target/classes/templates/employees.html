@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Employees</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>EMS</h2>
+
+<a href="/">Dashboard</a>
+<a href="/addEmployee">Add Employee</a>
+<a href="/employees">Employees</a>
+
+</div>
+
+<div class="main">
+
+<h1>Employee List</h1>
+
+<table border="1">
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Email</th>
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody id="employeeTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script>
+
+const API_URL = "http://localhost:8081/api/employees";
+
+
+// ================= GET ALL EMPLOYEES =================
+
+fetch(API_URL)
+
+.then(response => response.json())
+
+.then(data => {
+
+let table = document.getElementById("employeeTable");
+
+data.forEach(emp => {
+
+let row = `<tr>
+
+<td>${emp.id}</td>
+<td>${emp.firstname}</td>
+<td>${emp.lastname}</td>
+<td>${emp.email}</td>
+
+<td>
+
+<button onclick="editEmployee(${emp.id})">Edit</button>
+
+<button onclick="deleteEmployee(${emp.id})">Delete</button>
+
+</td>
+
+</tr>`;
+
+table.innerHTML += row;
+
+});
+
+});
+
+
+// ================= DELETE EMPLOYEE =================
+
+function deleteEmployee(id){
+
+fetch(API_URL + "/" + id, {
+
+method: "DELETE"
+
+})
+
+.then(() => {
+
+alert("Employee Deleted");
+
+location.reload();
+
+});
+
+}
+
+
+// ================= EDIT EMPLOYEE =================
+
+function editEmployee(id){
+
+window.location.href = "/addEmployee?id=" + id;
+
+}
+
+</script>
+
+</body>
+
+</html>
