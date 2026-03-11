@@ -59,11 +59,11 @@ src
 ### Dashboard 
 ![Dashboard](Screenshot%202026-03-11%20104138.png)
 
-### Add Employee Page
+### Employee Added
 ![Add Employee](Screenshot%202026-03-11%20104329.png)
 
-### Employee Added
-![Employee Added](Screenshot%202026-03-11%20104407.png)
+### Employee Add page
+![Employee Add page](Screenshot%202026-03-11%20104407.png)
 
 ### Employee List
 ![Employee List](Screenshot%202026-03-11%20104615.png)
