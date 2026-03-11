@@ -61,7 +61,7 @@ src
 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/employee-management-system.git
+git clone https://github.com/sinchana1408/Employee-Management-System.git
 ```
 
 2. Navigate to the project folder
