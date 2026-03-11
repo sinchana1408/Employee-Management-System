@@ -53,11 +53,11 @@ src
               ├─ css
               └─ js
 ```
-### Dashboard
-![Dashboard](Screenshot%202026-03-11%20104119.png)
+### Terminal
+![Terminal](Screenshot%202026-03-11%20104119.png)
 
-### Dashboard Cards
-![Dashboard Cards](Screenshot%202026-03-11%20104138.png)
+### Dashboard 
+![Dashboard](Screenshot%202026-03-11%20104138.png)
 
 ### Add Employee Page
 ![Add Employee](Screenshot%202026-03-11%20104329.png)
