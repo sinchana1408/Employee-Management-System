@@ -53,40 +53,23 @@ src
               ├─ css
               └─ js
 ```
-## Dashboard Page
+### Dashboard
+![Dashboard](Screenshot%202026-03-11%20104119.png)
 
-![Dashboard](screenshots/Screenshot%202026-03-11%20104119.png)
+### Dashboard Cards
+![Dashboard Cards](Screenshot%202026-03-11%20104138.png)
 
----
+### Add Employee Page
+![Add Employee](Screenshot%202026-03-11%20104329.png)
 
-## Dashboard Cards
+### Employee Added
+![Employee Added](Screenshot%202026-03-11%20104407.png)
 
-![Dashboard Cards](screenshots/Screenshot%202026-03-11%20104138.png)
+### Employee List
+![Employee List](Screenshot%202026-03-11%20104615.png)
 
----
-
-## Add Employee Page
-
-![Add Employee](screenshots/Screenshot%202026-03-11%20104329.png)
-
----
-
-## Employee Added Successfully
-
-![Employee Added](screenshots/Screenshot%202026-03-11%20104407.png)
-
----
-
-## Employee List Page
-
-![Employee List](screenshots/Screenshot%202026-03-11%20104615.png)
-
----
-
-## Employee Deleted
-
-![Employee Deleted](screenshots/Screenshot%202026-03-11%20104629.png)
-
+### Employee Deleted
+![Employee Deleted](Screenshot%202026-03-11%20104629.png)
 ---
 
 ## How to Run the Project
